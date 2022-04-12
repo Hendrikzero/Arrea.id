@@ -1,5 +1,5 @@
 /* Smartphone */
-@media (max-width: 800px) {
+@media (max-width: 770px) {
  
     .product {
         width: 100%;
@@ -27,6 +27,15 @@
 
     .btn-idcard {
         margin-top: 77px;
+    }
+
+}
+
+/* Dekstop Smartphone */
+@media (min-width: 927px) {
+
+    .btn-ybanner {
+        margin-top: 64px;
     }
 
 }
