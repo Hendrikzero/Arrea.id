@@ -1,0 +1,21 @@
+/* Untuk Tablet */
+
+@media (max-width: 1000px) {
+ 
+
+    .description h2 {
+        font-size: 16px;
+    }
+
+    .description p {
+        font-size: 12px;
+    }
+
+    .btn-spanduk {
+        margin: 0px 0px;
+    }
+
+    .btn-idcard {
+        margin: 0px 0px;
+    }
+}
