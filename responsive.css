@@ -1,21 +1,32 @@
-/* Untuk Tablet */
-
-@media (max-width: 1000px) {
+/* Smartphone */
+@media (max-width: 800px) {
  
+    .product {
+        width: 100%;
+    }
 
     .description h2 {
-        font-size: 16px;
+        font-size: 24px;
     }
 
     .description p {
-        font-size: 12px;
+        font-size: 20px;
     }
 
     .btn-spanduk {
-        margin: 0px 0px;
+        margin-top: 77px;
+    }
+
+    .btn-ybanner {
+        margin-top: 54px;
+    }
+
+    .btn-lanyard {
+        margin-top: 102px;
     }
 
     .btn-idcard {
-        margin: 0px 0px;
+        margin-top: 77px;
     }
+
 }
