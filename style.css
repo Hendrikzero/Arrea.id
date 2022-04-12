@@ -9,18 +9,11 @@ body {
     font-family: "Lucida Grande";
 }
 
-header {
-    background-image: url("img/Foto slider/Celengan.png");
-    background-size: 100%;
-    background-size: cover;
-    height: 600px;
-}
-
 .container {
-    margin: 40px 0px;
+    padding-top: 40px;
+    margin: 0 auto;
+    max-width: 1170px;
     width: 100%;
-    /*border: 2px solid blue;*/
-    background-color: darkgrey;
 }
 
 /*Title Container*/
@@ -31,10 +24,14 @@ header {
     margin-bottom: 40px;
 }
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .product {
     width: 50%;
-    float: left;
-    height: auto;
+    flex: auto;
 }
 
 .clear {
@@ -102,24 +99,32 @@ header {
     border: 4px dashed gray;
 }
 
-.btn-spanduk {
-    margin: 25px 0px;
-}
-
-.btn-idcard {
-    margin: 25px 0px;
-}
-
-.btn-lanyard {
-    margin: 50px 0px;
-}
-
-.btn {
+.btn-idcard, .btn-ybanner {
     padding: 8px 10px;
     border-radius: 5px;
     color: gray;
     display: inline-block;
     background-color: white;
     cursor: pointer;
-    margin: 40px 0px;
+    margin-top: 40px;
+}
+
+.btn-lanyard {
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: gray;
+    display: inline-block;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 110px;
+}
+
+.btn-spanduk {
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: gray;
+    display: inline-block;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 88px;
 }
