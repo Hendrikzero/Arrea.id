@@ -32,8 +32,12 @@
 }
 
 /* Dekstop Smartphone */
-@media (min-width: 927px) {
-
+@media (min-width: 920px) {
+ 
+    .product {
+        width: 50%;
+    }
+ 
     .btn-ybanner {
         margin-top: 64px;
     }
