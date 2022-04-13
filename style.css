@@ -99,7 +99,7 @@ body {
 }
 
 .btn-idcard {
-    padding: 1vh 1vw;
+    padding: 8px 10px;
     border-radius: 5px;
     color: gray;
     display: inline-block;
@@ -109,7 +109,7 @@ body {
 }
 
 .btn-ybanner {
-    padding: 1vh 1vw;
+    padding: 8px 10px;
     border-radius: 5px;
     color: gray;
     display: inline-block;
@@ -119,7 +119,7 @@ body {
 }
 
 .btn-lanyard {
-    padding: 1vh 1vw;
+    padding: 8px 10px;
     border-radius: 5px;
     color: gray;
     display: inline-block;
@@ -129,7 +129,7 @@ body {
 }
 
 .btn-spanduk {
-    padding: 1vh 1vw;
+    padding: 8px 10px;
     border-radius: 5px;
     color: gray;
     display: inline-block;
