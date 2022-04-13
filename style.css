@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Lucida Grande";
+}
+
+.container {
+    padding-top: 40px;
+    margin: 0 auto;
+    max-width: 1170px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+/*Title Container*/
+.section-title {
+    text-align: center;
+    font-family: 'Beau Rivage', cursive;
+    font-size: 4vw;
+    margin-bottom: 40px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 50%;
+    flex: auto;
+}
+
+.clear {
+    clear: left;
+}
+
+.pr1 {
+    background-color: #0e3145;
+    color: white;
+}
+
+.pr2 {
+    background-color: #efedec; 
+    color: black;
+}
+
+.pr3 {
+    background-color: #ab9581;
+    color: white;
+}
+
+.pr4 {
+    background-color: #69c5bd;
+    color: white;
+}
+
+.description {
+    width: 50%;
+    float: left;
+    height: 100%;
+    padding: 2vh 2vw 2vh 2vw;
+}
+
+.description h2 {
+    margin-bottom: 1.5vh;
+    font-size: 2vw;
+    font-weight: normal;
+}
+
+.description p {
+    font-size : 1vw;
+    line-height: 2.5vh;
+    opacity: 0.7;
+}
+
+.wrapper-img {
+    width: 50%;
+    float: right;
+    height: 100%;
+
+}
+
+.product-img {
+    width: 80%;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    margin-right: 2vw;
+    float: right;
+}
+
+.product-img img {
+    width: 100%;
+    border-radius: 100%;
+    border: 4px dashed gray;
+}
+
+.btn-idcard {
+    padding: 1vh 1vw;
+    border-radius: 5px;
+    color: gray;
+    display: inline-block;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 11.7vh;
+}
+
+.btn-ybanner {
+    padding: 1vh 1vw;
+    border-radius: 5px;
+    color: gray;
+    display: inline-block;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 9.2vh;
+}
+
+.btn-lanyard {
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: gray;
+    display: inline-block;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 14.1vh;
+}
+
+.btn-spanduk {
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: gray;
+    display: inline-block;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 11.6vh;
+}

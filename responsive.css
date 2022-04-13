@@ -1,0 +1,37 @@
+/* Smartphone */
+@media (max-width: 670px) {
+ 
+    .product {
+        width: 100%;
+    }
+
+    .description h2 {
+        font-size: 24px;
+    }
+
+    .description p {
+        font-size: 20px;
+        line-height: 3vh;
+    }
+
+}
+
+/* Tablet */
+@media (max-width: 1000px){
+    .product {
+        width: 50%;
+    }
+
+    .description h2 {
+        font-size: 4vw;
+    }
+
+    .description p {
+        font-size: 2vw;
+        line-height: 3vh;
+    }
+
+    .btn-lanyard {
+        margin-top: 17.1vh;
+    }
+}
